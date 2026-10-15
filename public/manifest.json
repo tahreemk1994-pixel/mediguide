@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "MediGuide Healthcare Information Assistant",
+  "short_name": "MediGuide",
+  "description": "Understand your health information with confidence. Offline-friendly medicine checker, medical reports explainer, and symptom guide in English and Urdu.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8fafc",
+  "theme_color": "#0d9488",
+  "categories": ["medical", "health", "education"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MediGuide Healthcare Information Assistant",
+  "description": "Understand your health information with confidence. Accessible healthcare assistant with medicine checker, sample report explainer, symptom guide, English/Urdu bilingual support, offline mode, and browser voice assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

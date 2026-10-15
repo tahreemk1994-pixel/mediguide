@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#0891b2" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f766e" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#grad)" filter="url(#shadow)" />
+  
+  <!-- Subtle Medical Shield / Ring Glow -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="#ffffff" stroke-width="12" stroke-opacity="0.25" />
+  
+  <!-- Medical Cross Symbol -->
+  <g fill="#ffffff">
+    <rect x="216" y="136" width="80" height="240" rx="40" />
+    <rect x="136" y="216" width="240" height="80" rx="40" />
+  </g>
+  
+  <!-- Central Pulse / Heart Accent -->
+  <path d="M196 256 L232 256 L246 220 L266 292 L280 256 L316 256" fill="none" stroke="#0d9488" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
